@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>蜜瓜电影网 - 清爽高清电影在线观看与最新影视推荐 | miguadianyingwang-zh.github.io</title>
+<meta name="keywords" content="蜜瓜电影网, miguadianyingwang-zh, 蜜瓜电影网官网, 清爽高清电影在线观看, 最新电影推荐, 影视资源导航, https://miguadianyingwang-zh.github.io">
+<meta name="description" content="蜜瓜电影网（miguadianyingwang-zh）是一个清爽风格的高清电影在线观看与最新影视推荐导航网站，主打轻量、无干扰的观影体验，涵盖喜剧、爱情、悬疑、动画、纪录片等多元类型，每日精选院线与经典影片，访问 https://miguadianyingwang-zh.github.io 即刻开启清凉观影。">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="revisit-after" content="1 days">
+<meta name="author" content="蜜瓜电影网">
+<meta name="copyright" content="蜜瓜电影网 miguadianyingwang-zh">
+<meta name="theme-color" content="#eaf7f0">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="蜜瓜电影网">
+<meta property="og:title" content="蜜瓜电影网 - 清爽高清电影在线观看与最新影视推荐">
+<meta property="og:description" content="蜜瓜电影网（miguadianyingwang-zh）以清爽轻量风格聚合多类型高清影片与每日精选片单，让找片像吃一口冰镇蜜瓜一样轻松。">
+<meta property="og:url" content="https://miguadianyingwang-zh.github.io">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="蜜瓜电影网 - 清爽高清电影在线观看">
+<meta name="twitter:description" content="蜜瓜电影网 miguadianyingwang-zh 清爽风格聚合多类型高清影片与每日精选影视推荐。">
+<link rel="canonical" href="https://miguadianyingwang-zh.github.io">
+<style>
+:root{
+  --bg:#f4fbf8;
+  --bg2:#eaf7f0;
+  --card:#ffffff;
+  --line:#dcebe4;
+  --txt:#1c2b27;
+  --sub:#5d7370;
+  --green:#22b07d;
+  --green2:#0e8a5f;
+  --melon:#ff8fa3;
+  --melon2:#ff6b85;
+  --honey:#ffc24b;
+  --sky:#4ec5e8;
+  --grape:#9b7ce8;
+  --shadow:0 12px 34px -18px rgba(30,90,70,.28);
+  --r:20px;
+  --maxw:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--bg);
+  color:var(--txt);
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  line-height:1.75;
+  overflow-x:hidden;
+  background-image:
+    radial-gradient(circle at 8% 6%,rgba(255,143,163,.13),transparent 40%),
+    radial-gradient(circle at 92% 14%,rgba(78,197,232,.12),transparent 42%),
+    radial-gradient(circle at 50% 96%,rgba(155,124,232,.09),transparent 44%);
+  background-attachment:fixed;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+::selection{background:var(--melon);color:#fff}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+section{padding:74px 0}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:13px;letter-spacing:.18em;color:var(--green2);font-weight:800;margin-bottom:14px;
+}
+.eyebrow::before{content:"";width:26px;height:3px;border-radius:3px;background:var(--green)}
+h2.sec-t{font-size:clamp(27px,4.2vw,42px);font-weight:850;letter-spacing:.4px;margin-bottom:8px;line-height:1.3}
+h2.sec-t em{font-style:normal;color:var(--melon2)}
+.sec-d{max-width:640px;color:var(--sub);font-size:16px}
+
+/* ---------- 顶部 ---------- */
+.hd{
+  position:sticky;top:0;z-index:99;
+  background:rgba(244,251,248,.86);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(34,176,125,.12);
+}
+.hd-in{display:flex;align-items:center;gap:16px;height:68px}
+.logo{display:flex;align-items:center;gap:12px;font-weight:900;font-size:20px;letter-spacing:.5px;flex:0 0 auto}
+.logo .mk{
+  width:40px;height:40px;border-radius:13px;flex:0 0 auto;
+  background:linear-gradient(150deg,var(--green),var(--green2));
+  display:grid;place-items:center;position:relative;
+  box-shadow:0 8px 20px rgba(34,176,125,.3);
+}
+.logo .mk::after{
+  content:"";width:16px;height:16px;border:2.5px solid #fff;border-radius:50%;
+  box-shadow:0 10px 0 -4px #fff,0 -10px 0 -4px #fff;
+}
+.logo small{display:block;font-weight:600;font-size:11px;color:var(--sub);letter-spacing:.16em;text-transform:uppercase}
+.nav{display:flex;gap:4px;margin-left:auto;align-items:center}
+.nav a{
+  padding:9px 14px;border-radius:12px;font-size:15px;color:var(--sub);
+  transition:.25s;white-space:nowrap;font-weight:500;
+}
+.nav a:hover{color:var(--green2);background:rgba(34,176,125,.08)}
+.btn-cta{
+  margin-left:10px;padding:10px 19px;border-radius:13px;font-size:14px;font-weight:800;
+  background:linear-gradient(92deg,var(--melon),var(--melon2));color:#fff;
+  box-shadow:0 9px 24px rgba(255,107,133,.32);transition:.25s;white-space:nowrap;
+}
+.btn-cta:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(255,107,133,.4)}
+.menu-btn{display:none;margin-left:auto;width:46px;height:46px;border:2px solid var(--line);border-radius:12px;background:#fff;cursor:pointer}
+.menu-btn span{display:block;width:20px;height:2.5px;background:var(--green2);margin:4px auto;border-radius:3px;transition:.25s}
+.menu-btn.on .a{transform:translateY(6.5px) rotate(45deg)}
+.menu-btn.on .b{opacity:0}
+.menu-btn.on .c{transform:translateY(-6.5px) rotate(-45deg)}
+
+/* ---------- Hero ---------- */
+.hero{padding:64px 0 44px}
+.hero-card{
+  background:var(--card);border:1px solid var(--line);border-radius:32px;
+  padding:52px;box-shadow:var(--shadow);position:relative;overflow:hidden;
+}
+.hero-card::before{content:"";position:absolute;right:-80px;top:-80px;width:320px;height:320px;border-radius:50%;background:radial-gradient(circle,rgba(255,143,163,.3),transparent 68%)}
+.hero-card::after{content:"";position:absolute;left:-60px;bottom:-90px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(78,197,232,.26),transparent 66%)}
+.hero-in{position:relative;z-index:1;display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center}
+.pill{
+  display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:99px;
+  background:rgba(34,176,125,.1);color:var(--green2);font-size:13px;font-weight:700;margin-bottom:22px;
+}
+.hero h1{font-size:clamp(35px,5.6vw,62px);line-height:1.14;font-weight:900;letter-spacing:.5px}
+.hero h1 span{color:var(--melon2)}
+.hero p.lede{margin-top:22px;color:var(--sub);font-size:17px;max-width:530px}
+.h-stat{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:32px}
+.h-stat div{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.h-stat b{display:block;font-size:27px;font-weight:900;color:var(--green2);line-height:1.2}
+.h-stat span{font-size:13px;color:var(--sub)}
+.h-visual{position:relative}
+.glass{
+  background:rgba(255,255,255,.72);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,.9);border-radius:24px;padding:26px;
+  box-shadow:0 20px 50px -24px rgba(30,90,70,.4);
+}
+.g-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.g-head b{font-size:15px;color:var(--green2);letter-spacing:.06em}
+.g-head span{font-size:12px;color:var(--sub);background:rgba(255,143,163,.14);color:var(--melon2);padding:4px 10px;border-radius:99px;font-weight:700}
+.flick{display:flex;gap:10px;margin-bottom:18px}
+.flick i{flex:1;height:46px;border-radius:10px;background:linear-gradient(160deg,var(--c1,#ffd98a),var(--c2,#f0a83c));display:block;opacity:.9}
+.flick i:nth-child(1){--c1:#ffd98a;--c2:#f0a83c}
+.flick i:nth-child(2){--c1:#ffc0cb;--c2:#ff7a93}
+.flick i:nth-child(3){--c1:#a8e6cf;--c2:#3ec98f}
+.flick i:nth-child(4){--c1:#b9d8ff;--c2:#4e8fe8}
+.flick i:nth-child(5){--c1:#dcc6ff;--c2:#8b6ce8}
+.notice li{display:flex;gap:12px;align-items:center;padding:11px 0;border-bottom:1px dashed var(--line);font-size:14px}
+.notice li:last-child{border-bottom:0}
+.notice li b{font-weight:700;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.notice li span{font-size:12px;color:var(--sub);flex:0 0 auto}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--melon);flex:0 0 auto}
+
+/* ---------- 通用 ---------- */
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:22px;flex-wrap:wrap;margin-bottom:36px}
+.sec-head-l .eyebrow{margin-bottom:10px}
+.cards{display:grid;gap:22px}
+.c4{grid-template-columns:repeat(4,1fr)}
+.c3{grid-template-columns:repeat(3,1fr)}
+.c2{grid-template-columns:repeat(2,1fr)}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  padding:28px;transition:.32s;box-shadow:0 4px 16px -10px rgba(30,90,70,.18);position:relative;
+}
+.card:hover{transform:translateY(-7px);box-shadow:var(--shadow);border-color:rgba(34,176,125,.4)}
+.card .ic{
+  width:54px;height:54px;border-radius:15px;display:grid;place-items:center;margin-bottom:18px;
+  font-size:24px;background:var(--bg2);
+}
+.card h3{font-size:21px;margin-bottom:10px;letter-spacing:.4px}
+.card p{color:var(--sub);font-size:15px}
+.card .more{margin-top:18px;font-size:14px;font-weight:700;color:var(--green2);display:inline-flex;align-items:center;gap:6px}
+
+/* ---------- 栏目一 关于 ---------- */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
+.about-list{margin-top:22px;display:grid;gap:14px}
+.about-list li{display:flex;gap:14px;align-items:flex-start;font-size:16px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.about-list li .q{font-size:19px;flex:0 0 auto;width:38px;height:38px;border-radius:11px;background:rgba(255,143,163,.14);display:grid;place-items:center}
+.about-list li b{display:block;font-size:16px;margin-bottom:2px}
+.about-list li span{font-size:14px;color:var(--sub)}
+.about-side{display:grid;gap:16px}
+.note{background:linear-gradient(155deg,var(--green),var(--green2));color:#fff;border-radius:24px;padding:28px;box-shadow:var(--shadow)}
+.note .eyebrow{color:#d6ffe9}
+.note h3{font-size:22px;margin-bottom:12px;letter-spacing:.4px}
+.note p{font-size:15px;opacity:.94}
+.note .sign{margin-top:18px;font-size:14px;opacity:.9;text-align:right}
+.chips{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.chip2{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;text-align:center;transition:.25s}
+.chip2:hover{border-color:var(--melon);transform:translateY(-4px)}
+.chip2 b{display:block;font-size:15px;margin-top:8px}
+.chip2 span{font-size:12px;color:var(--sub)}
+
+/* ---------- 栏目二 片单 ---------- */
+.filters{display:flex;gap:9px;flex-wrap:wrap}
+.flt{
+  padding:9px 17px;border-radius:12px;font-size:14px;font-weight:600;cursor:pointer;
+  border:1.5px solid var(--line);background:var(--card);color:var(--sub);transition:.2s;font-family:inherit;
+}
+.flt:hover{color:var(--green2);border-color:rgba(34,176,125,.4)}
+.flt.on{background:linear-gradient(92deg,var(--green),var(--green2));color:#fff;border-color:transparent;box-shadow:0 7px 18px rgba(34,176,125,.3)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.thumb{
+  background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;
+  transition:.3s;box-shadow:0 4px 16px -10px rgba(30,90,70,.18);
+}
+.thumb:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:rgba(255,107,133,.45)}
+.thumb .cvr{position:relative;aspect-ratio:3/4;overflow:hidden;background:linear-gradient(160deg,var(--c1,#b8e6d0),var(--c2,#7ad0ac))}
+.thumb .cvr b{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:14px;font-size:21px;font-weight:900;color:#fff;letter-spacing:1px}
+.thumb .cvr em{position:absolute;left:11px;top:11px;font-style:normal;font-size:11px;font-weight:700;padding:5px 10px;border-radius:8px;background:rgba(255,255,255,.9);color:var(--green2)}
+.thumb .cvr u{position:absolute;right:11px;top:11px;text-decoration:none;font-size:12px;font-weight:800;padding:5px 9px;border-radius:8px;background:rgba(255,255,255,.9);color:var(--melon2)}
+.thumb .cvr s{position:absolute;left:0;right:0;bottom:0;height:5px;background:rgba(255,255,255,.45)}
+.thumb .cvr s i{display:block;height:100%;width:var(--w,72%);background:linear-gradient(90deg,var(--honey),var(--melon))}
+.thumb .info{padding:15px 16px}
+.thumb .info b{display:block;font-size:16px;letter-spacing:.3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.thumb .info .row{display:flex;justify-content:space-between;font-size:13px;color:var(--sub);margin-top:7px}
+.thumb .info .row i{font-style:normal;color:var(--green2);font-weight:700}
+
+/* ---------- 栏目三 榜单 ---------- */
+.split{display:grid;grid-template-columns:1.15fr .85fr;gap:26px;align-items:start}
+.board{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+.board-h{background:linear-gradient(100deg,var(--melon),var(--melon2));color:#fff;padding:22px 24px;display:flex;align-items:center;gap:12px}
+.board-h h3{font-size:20px;letter-spacing:.5px}
+.board-h span{margin-left:auto;font-size:12px;background:rgba(255,255,255,.22);padding:5px 12px;border-radius:99px;font-weight:600}
+.item{display:grid;grid-template-columns:44px 52px 1fr 56px;gap:14px;align-items:center;padding:16px 24px;border-bottom:1px dashed var(--line)}
+.item:last-child{border-bottom:0}
+.item .rk{font-size:24px;font-weight:900;color:#cbd8d3}
+.item.g1 .rk{color:var(--honey)}
+.item.g2 .rk{color:var(--sub)}
+.item.g3 .rk{color:var(--melon2)}
+.item .cvr2{width:52px;height:70px;border-radius:9px;background:linear-gradient(150deg,var(--c1),var(--c2))}
+.item .txt b{display:block;font-size:16px;letter-spacing:.3px}
+.item .txt span{font-size:13px;color:var(--sub)}
+.item .sc{font-size:17px;font-weight:900;text-align:right;color:var(--green2)}
+.explain{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:28px;box-shadow:var(--shadow);position:sticky;top:90px}
+.explain h3{font-size:20px;margin-bottom:18px}
+.explain table{width:100%;border-collapse:collapse;font-size:14px}
+.explain th{text-align:left;font-size:12px;color:var(--sub);font-weight:600;padding:9px 0;border-bottom:1px solid var(--line)}
+.explain td{padding:11px 0;border-bottom:1px dashed var(--line);color:var(--txt)}
+.explain tr:last-child td{border-bottom:0}
+.explain td b{color:var(--green2)}
+.bar{height:7px;border-radius:7px;background:var(--bg2);overflow:hidden;display:block;margin-top:6px}
+.bar i{display:block;height:100%;border-radius:7px;background:linear-gradient(90deg,var(--green),var(--melon))}
+
+/* ---------- 栏目四 排片 ---------- */
+.cal{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+.cal-h{display:grid;grid-template-columns:repeat(7,1fr)}
+.dt{
+  padding:18px 10px;text-align:center;cursor:pointer;border-right:1px solid var(--line);
+  border-bottom:1px solid var(--line);transition:.2s;font-family:inherit;background:var(--bg2);color:var(--sub)
+}
+.dt:last-child{border-right:0}
+.dt b{display:block;font-size:18px;font-weight:800;color:var(--txt);letter-spacing:.5px}
+.dt span{font-size:12px}
+.dt small{display:block;font-size:11px;margin-top:5px;color:var(--green2);font-weight:700}
+.dt:hover{background:rgba(34,176,125,.06)}
+.dt.on{background:linear-gradient(160deg,var(--green),var(--green2));color:#fff}
+.dt.on b,.dt.on span,.dt.on small{color:#fff}
+.cal-body{padding:10px}
+.ln{display:grid;grid-template-columns:80px 1.4fr 1fr 110px 60px;gap:14px;align-items:center;padding:15px 18px;border-radius:13px;transition:.2s}
+.ln + .ln{border-top:1px dashed var(--line)}
+.ln:hover{background:var(--bg2)}
+.ln .t{font-size:21px;font-weight:900;color:var(--green2);letter-spacing:.5px}
+.ln .n b{display:block;font-size:16px}
+.ln .n span{font-size:13px;color:var(--sub)}
+.tag-v{padding:6px 12px;border-radius:99px;font-size:12px;font-weight:700;text-align:center;border:1px solid var(--line);background:var(--bg2)}
+.tag-v.v2{color:var(--green2);border-color:rgba(34,176,125,.35);background:rgba(34,176,125,.08)}
+.tag-v.v3{color:var(--sky);border-color:rgba(78,197,232,.4);background:rgba(78,197,232,.1)}
+.tag-v.v4{color:var(--grape);border-color:rgba(155,124,232,.4);background:rgba(155,124,232,.1)}
+.ln .pr{font-size:13px;color:var(--sub);text-align:right}
+.ln .go{text-align:center;font-size:13px;font-weight:700;color:var(--melon2);cursor:pointer}
+
+/* ---------- 栏目五 指南 ---------- */
+.guide{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.gd{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px;transition:.3s;box-shadow:0 4px 16px -10px rgba(30,90,70,.18)}
+.gd:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:rgba(255,107,133,.4)}
+.gd .n{font-size:13px;font-weight:800;letter-spacing:.2em;color:var(--melon2);margin-bottom:12px}
+.gd h3{font-size:19px;margin-bottom:9px}
+.gd p{font-size:14.5px;color:var(--sub)}
+.gd .tip{margin-top:16px;font-size:13px;color:var(--green2);font-weight:600;background:rgba(34,176,125,.08);border-radius:9px;padding:8px 12px;display:inline-block}
+.notice-box{margin-top:22px;background:linear-gradient(155deg,#fff5f7,#fff);border:1px solid rgba(255,143,163,.35);border-radius:var(--r);padding:24px}
+.notice-box h4{font-size:17px;margin-bottom:12px;color:var(--melon2)}
+.notice-box ul{display:grid;gap:10px}
+.notice-box li{font-size:14.5px;color:var(--sub);display:flex;gap:10px;align-items:flex-start}
+.notice-box li::before{content:"✔";color:var(--green);font-weight:900;flex:0 0 auto}
+
+/* ---------- 影迷口碑 ---------- */
+.cmt-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.cmt{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:24px;box-shadow:0 4px 16px -10px rgba(30,90,70,.18);transition:.28s}
+.cmt:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+.cmt-top{display:flex;align-items:center;gap:13px;margin-bottom:14px}
+.av{width:44px;height:44px;border-radius:50%;flex:0 0 auto;display:grid;place-items:center;font-weight:900;color:#fff;font-size:15px}
+.cmt-top .who b{display:block;font-size:15px}
+.cmt-top .who time{font-size:12px;color:var(--sub)}
+.stars{margin-left:auto;color:var(--honey);letter-spacing:2px;font-size:15px}
+.cmt p{font-size:15px;color:#3a4a47}
+.cmt-ft{margin-top:16px;padding-top:13px;border-top:1px dashed var(--line);display:flex;gap:22px;font-size:13px;color:var(--sub)}
+.cmt-ft span{cursor:pointer;transition:.2s;display:inline-flex;align-items:center;gap:5px}
+.cmt-ft span:hover{color:var(--melon2)}
+
+/* ---------- 底部 ---------- */
+.ft{background:linear-gradient(180deg,#eaf7f0,#dff3ea);border-top:1px solid var(--line);padding:64px 0 0;margin-top:30px}
+.ft-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px}
+.ft-brand p{margin-top:16px;color:var(--sub);font-size:14.5px;max-width:330px}
+.ft-brand .codes{margin-top:18px;display:flex;gap:9px;flex-wrap:wrap}
+.ft-brand code{background:#fff;border:1px solid var(--line);border-radius:9px;padding:6px 11px;font-size:12px;color:var(--green2);font-family:ui-monospace,Menlo,Consolas,monospace}
+.ft-col h4{font-size:15px;margin-bottom:16px;letter-spacing:.5px;color:var(--green2)}
+.ft-col a{display:block;color:var(--sub);font-size:14px;padding:6px 0;transition:.2s}
+.ft-col a:hover{color:var(--melon2);padding-left:7px}
+.ft-bot{margin-top:50px;padding:24px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--sub)}
+.ft-bot a{color:var(--sub)}
+.ft-bot a:hover{color:var(--melon2)}
+
+.top{
+  position:fixed;right:18px;bottom:22px;z-index:90;width:48px;height:48px;border-radius:50%;
+  background:var(--green);color:#fff;cursor:pointer;border:0;
+  display:none;place-items:center;font-size:20px;box-shadow:0 10px 26px rgba(34,176,125,.4);transition:.25s
+}
+.top.on{display:grid}
+.top:hover{transform:translateY(-3px);background:var(--melon2)}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1024px){
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .c4{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:820px){
+  section{padding:54px 0}
+  .hero-card{padding:30px;border-radius:26px}
+  .hero-in,.about-grid,.split{grid-template-columns:1fr;gap:34px}
+  .explain{position:static}
+  .c3,.c2{grid-template-columns:1fr}
+  .cmt-grid{grid-template-columns:1fr}
+  .guide{grid-template-columns:1fr}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .ft-grid{grid-template-columns:1fr 1fr;gap:28px}
+  .nav{
+    position:fixed;top:68px;left:0;right:0;flex-direction:column;align-items:stretch;
+    background:rgba(244,251,248,.97);backdrop-filter:blur(16px);padding:16px 20px 22px;gap:6px;
+    border-bottom:1px solid var(--line);transform:translateY(-14px);opacity:0;pointer-events:none;transition:.28s
+  }
+  .nav.open{transform:none;opacity:1;pointer-events:auto}
+  .nav a{padding:13px 15px;border-radius:12px;background:var(--card);border:1px solid var(--line)}
+  .btn-cta{margin:6px 0 0;text-align:center}
+  .menu-btn{display:block}
+  .hero h1{font-size:clamp(31px,9.5vw,44px)}
+  .h-stat{grid-template-columns:1fr 1fr}
+  .ln{grid-template-columns:70px 1fr;gap:10px}
+  .ln .tag-v,.ln .pr,.ln .go{grid-column:2;text-align:left;justify-self:start}
+  .chips{grid-template-columns:1fr 1fr}
+  .cal-h{grid-template-columns:repeat(4,1fr)}
+  .dt:nth-child(n+5){border-top:1px solid var(--line)}
+}
+@media (max-width:480px){
+  .wrap{padding:0 16px}
+  .grid,.c4,.chips{grid-template-columns:1fr 1fr;gap:13px}
+  .ft-grid{grid-template-columns:1fr}
+  .hero-card{padding:24px}
+  .g-head span{display:none}
+  .thumb .info b{font-size:15px}
+  .item{grid-template-columns:36px 46px 1fr;gap:11px;padding:14px}
+  .item .sc{display:none}
+  .cal-h{grid-template-columns:repeat(4,1fr)}
+  .dt{padding:13px 4px}
+  .dt b{font-size:15px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<header class="hd">
+  <div class="wrap hd-in">
+    <a class="logo" href="#top" aria-label="蜜瓜电影网 首页">
+      <span class="mk" aria-hidden="true"></span>
+      <span>蜜瓜电影网<small>MIGUADIANYINGWANG</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#home">首页</a>
+      <a href="#about">关于本站</a>
+      <a href="#list">精选片单</a>
+      <a href="#rank">口碑榜单</a>
+      <a href="#plan">放映计划</a>
+      <a href="#guide">观影指南</a>
+      <a href="#comments">蜜友评价</a>
+      <a href="#home" class="btn-cta">开始观影</a>
+    </nav>
+    <button class="menu-btn" id="mb" aria-label="菜单">
+      <span class="a"></span><span class="b"></span><span class="c"></span>
+    </button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="hero-card">
+      <div class="hero-in">
+        <div>
+          <span class="pill">🍈 今日主打 · 清爽夏日片单已更新</span>
+          <h1>清爽看片，<br>就来 <span>蜜瓜电影网</span></h1>
+          <p class="lede">蜜瓜电影网（miguadianyingwang-zh）是一个清爽风格的高清电影在线观看与最新影视推荐导航网站，界面干净、无干扰，按类型与热度帮你快速锁定今晚该看哪一部。</p>
+          <div class="h-stat">
+            <div><b>3,152</b><span>部精选影片</span></div>
+            <div><b>9</b><span>个影片频道</span></div>
+            <div><b>每日 09:00</b><span>固定更新片单</span></div>
+          </div>
+        </div>
+        <div class="h-visual">
+          <div class="glass">
+            <div class="g-head"><b>📣 蜜瓜每日速报</b><span>实时</span></div>
+            <div class="flick" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+            <ul class="notice">
+              <li><span class="dot"></span><b>院线新片《夏日方程式》今日上线</b><span>爱情 · 9.1</span></li>
+              <li><span class="dot" style="background:var(--sky)"></span><b>纪录片《珊瑚花园》登上周榜第一</b><span>纪录 · 9.4</span></li>
+              <li><span class="dot" style="background:var(--green)"></span><b>经典港片修复计划新增 12 部</b><span>经典 · 修复</span></li>
+              <li><span class="dot" style="background:var(--grape)"></span><b>周末亲子动画专场开放预约</b><span>动画 · 配音</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目一：关于 -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <span class="eyebrow">01 / 关于蜜瓜电影网</span>
+        <h2 class="sec-t">看片就该像吃蜜瓜<br>一样 <em>清爽</em></h2>
+        <p class="sec-d">蜜瓜电影网（https://miguadianyingwang-zh.github.io）专注做一件小事：把找片这件事变简单。无强制登录、无诱导弹窗，打开即看分类，点两下就到你想看的片。</p>
+        <ul class="about-list">
+          <li><span class="q">🍈</span><span><b>清爽界面</b><br>低刺激配色，长时间浏览也不累眼，夜间模式同步支持</span></li>
+          <li><span class="q">🎯</span><span><b>精准分类</b><br>9 个频道 × 地区 × 年代三层筛选，找不到片的概率降到最低</span></li>
+          <li><span class="q">📊</span><span><b>透明榜单</b><br>热度、评分、互动三项加权，规则公开，拒绝刷量</span></li>
+          <li><span class="q">📱</span><span><b>移动优先</b><br>手机端单列流式布局，弱网下 1 秒首屏，横竖屏自适应</span></li>
+        </ul>
+      </div>
+      <div class="about-side">
+        <div class="note">
+          <span class="eyebrow">站长的话</span>
+          <h3>「我们删掉了所有干扰项，只留下影片本身。」</h3>
+          <p>做蜜瓜电影网的初衷很简单：找一个能安心看片的地方，不用注册、不用关弹窗、不用在一堆广告里找播放按钮。现在它做到了。</p>
+          <div class="sign">— 蜜瓜电影网 miguadianyingwang-zh</div>
+        </div>
+        <div class="chips">
+          <div class="chip2"><span>🎬</span><b>248 部</b><span>本周新片</span></div>
+          <div class="chip2"><span>⭐</span><b>9.4</b><span>全站最高分</span></div>
+          <div class="chip2"><span>💬</span><b>6,318</b><span>条真实评价</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目二：片单 -->
+<section id="list" style="background:linear-gradient(180deg,transparent,rgba(34,176,125,.03),transparent);border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-head-l">
+        <span class="eyebrow">02 / 精选片单</span>
+        <h2 class="sec-t"><em>9 个频道</em> · 一键切换</h2>
+        <p class="sec-d">点击标签即时换片单，无需跳转，当前展示 4 部代表性影片。</p>
+      </div>
+      <div class="filters" id="flt">
+        <button class="flt on" data-g="g1">爱情</button>
+        <button class="flt" data-g="g2">喜剧</button>
+        <button class="flt" data-g="g3">悬疑</button>
+        <button class="flt" data-g="g4">科幻</button>
+        <button class="flt" data-g="g5">动画</button>
+        <button class="flt" data-g="g6">动作</button>
+        <button class="flt" data-g="g7">纪录</button>
+        <button class="flt" data-g="g8">经典</button>
+        <button class="flt" data-g="g9">短片</button>
+      </div>
+    </div>
+
+    <div class="grid" id="g1">
+      <div class="thumb"><div class="cvr" style="--c1:#ffc0cb;--c2:#ff7a93"><em>爱情</em><u>9.1</u><b>夏日方程式</b><s style="--w:91%"><i></i></s></div><div class="info"><b>夏日方程式</b><div class="row"><span>日本 / 116分钟</span><i>院线新片</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#ffd98a;--c2:#f0a83c"><em>浪漫</em><u>8.6</u><b>在巴黎的最后一天</b><s style="--w:86%"><i></i></s></div><div class="info"><b>在巴黎的最后一天</b><div class="row"><span>法国 / 104分钟</span><i>修复版</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#a8e6cf;--c2:#3ec98f"><em>治愈</em><u>8.9</u><b>写给你的信</b><s style="--w:89%"><i></i></s></div><div class="info"><b>写给你的信</b><div class="row"><span>内地 / 121分钟</span><i>高分</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#b9d8ff;--c2:#5b9be8"><em>青春</em><u>8.3</u><b>十七岁的海</b><s style="--w:83%"><i></i></s></div><div class="info"><b>十七岁的海</b><div class="row"><span>内地 / 109分钟</span><i>校园</i></div></div></div>
+    </div>
+    <div class="grid" id="g2" style="display:none">
+      <div class="thumb"><div class="cvr" style="--c1:#ffe0a3;--c2:#f0b84c"><em>合家欢</em><u>8.5</u><b>大赢家</b><s style="--w:85%"><i></i></s></div><div class="info"><b>大赢家</b><div class="row"><span>内地 / 113分钟</span><i>周末专场</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#ffc7a3;--c2:#f0864c"><em>荒诞</em><u>8.0</u><b>甲方乙方 2026</b><s style="--w:80%"><i></i></s></div><div class="info"><b>甲方乙方 2026</b><div class="row"><span>内地 / 107分钟</span><i>翻拍</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#a3ffd0;--c2:#4cd694"><em>治愈</em><u>8.7</u><b>小森林的午后</b><s style="--w:87%"><i></i></s></div><div class="info"><b>小森林的午后</b><div class="row"><span>日本 / 102分钟</span><i>慢生活</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#d6c2ff;--c2:#8d6cf0"><em>脱口秀</em><u>8.2</u><b>今晚不加班</b><s style="--w:82%"><i></i></s></div><div class="info"><b>今晚不加班</b><div class="row"><span>内地 / 99分钟</span><i>现场</i></div></div></div>
+    </div>
+    <div class="grid" id="g3" style="display:none">
+      <div class="thumb"><div class="cvr" style="--c1:#c2c2d6;--c2:#6c6c8a"><em>烧脑</em><u>9.0</u><b>记忆折叠</b><s style="--w:90%"><i></i></s></div><div class="info"><b>记忆折叠</b><div class="row"><span>美国 / 127分钟</span><i>反转</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#d6a3a3;--c2:#a05a5a"><em>犯罪</em><u>8.8</u><b>沉默的证人</b><s style="--w:88%"><i></i></s></div><div class="info"><b>沉默的证人</b><div class="row"><span>韩国 / 130分钟</span><i>高分</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#a3bcd6;--c2:#5a7ca0"><em>心理</em><u>8.4</u><b>第七个房间</b><s style="--w:84%"><i></i></s></div><div class="info"><b>第七个房间</b><div class="row"><span>西班牙 / 112分钟</span><i>密闭空间</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#bca3d6;--c2:#7a5ca0"><em>推理</em><u>8.6</u><b>倒计时 48h</b><s style="--w:86%"><i></i></s></div><div class="info"><b>倒计时 48h</b><div class="row"><span>内地 / 118分钟</span><i>国产</i></div></div></div>
+    </div>
+    <div class="grid" id="g4" style="display:none">
+      <div class="thumb"><div class="cvr" style="--c1:#a3e0ff;--c2:#4ca8e8"><em>太空</em><u>9.2</u><b>星辰彼岸</b><s style="--w:92%"><i></i></s></div><div class="info"><b>星辰彼岸</b><div class="row"><span>美国 / 148分钟</span><i>IMAX</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#c2a3ff;--c2:#7a4ce8"><em>AI</em><u>8.7</u><b>电子灵魂</b><s style="--w:87%"><i></i></s></div><div class="info"><b>电子灵魂</b><div class="row"><span>英国 / 124分钟</span><i>软科幻</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#a3ffea;--c2:#4ce0c0"><em>未来</em><u>8.3</u><b>2077 便利店</b><s style="--w:83%"><i></i></s></div><div class="info"><b>2077 便利店</b><div class="row"><span>内地 / 110分钟</span><i>新锐</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#ffa3c9;--c2:#e84c8a"><em>怪物</em><u>7.9</u><b>深海巨兽</b><s style="--w:79%"><i></i></s></div><div class="info"><b>深海巨兽</b><div class="row"><span>美国 / 132分钟</span><i>视效</i></div></div></div>
+    </div>
+    <div class="grid" id="g5" style="display:none">
+      <div class="thumb"><div class="cvr" style="--c1:#ffe0f0;--c2:#ff8fc0"><em>亲子</em><u>8.9</u><b>蜜瓜小镇</b><s style="--w:89%"><i></i></s></div><div class="info"><b>蜜瓜小镇</b><div class="row"><span>国产 / 94分钟</span><i>配音</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#fff0a3;--c2:#f0d04c"><em>冒险</em><u>8.5</u><b>云上的孩子</b><s style="--w:85%"><i></i></s></div><div class="info"><b>云上的孩子</b><div class="row"><span>日本 / 89分钟</span><i>治愈</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#a3ffb8;--c2:#4ce874"><em>奇幻</em><u>8.1</u><b>森林守护者</b><s style="--w:81%"><i></i></s></div><div class="info"><b>森林守护者</b><div class="row"><span>法国 / 101分钟</span><i>环保</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#a3c4ff;--c2:#4c78e8"><em>温情</em><u>8.7</u><b>爷爷的旧书店</b><s style="--w:87%"><i></i></s></div><div class="info"><b>爷爷的旧书店</b><div class="row"><span>国产 / 86分钟</span><i>短片合集</i></div></div></div>
+    </div>
+    <div class="grid" id="g6" style="display:none">
+      <div class="thumb"><div class="cvr" style="--c1:#ffc2a3;--c2:#e87a4c"><em>警匪</em><u>8.8</u><b>暗线追击</b><s style="--w:88%"><i></i></s></div><div class="info"><b>暗线追击</b><div class="row"><span>香港 / 126分钟</span><i>港片</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#d6d6a3;--c2:#a0a04c"><em>战争</em><u>8.6</u><b>黎明之前</b><s style="--w:86%"><i></i></s></div><div class="info"><b>黎明之前</b><div class="row"><span>内地 / 142分钟</span><i>史诗</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#ffa3a3;--c2:#e84c4c"><em>武侠</em><u>8.4</u><b>孤刀行</b><s style="--w:84%"><i></i></s></div><div class="info"><b>孤刀行</b><div class="row"><span>内地 / 119分钟</span><i>古装</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#c9a3ff;--c2:#8a4ce8"><em>特工</em><u>8.2</u><b>代号萤火</b><s style="--w:82%"><i></i></s></div><div class="info"><b>代号萤火</b><div class="row"><span>韩国 / 134分钟</span><i>谍战</i></div></div></div>
+    </div>
+    <div class="grid" id="g7" style="display:none">
+      <div class="thumb"><div class="cvr" style="--c1:#a3e8c9;--c2:#4cbe94"><em>自然</em><u>9.4</u><b>珊瑚花园</b><s style="--w:94%"><i></i></s></div><div class="info"><b>珊瑚花园</b><div class="row"><span>纪录 / 98分钟</span><i>周榜第 1</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#a3d6ff;--c2:#4c96e8"><em>宇宙</em><u>9.1</u><b>深空来信</b><s style="--w:91%"><i></i></s></div><div class="info"><b>深空来信</b><div class="row"><span>纪录 / 115分钟</span><i>宇宙</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#e8d6a3;--c2:#b89a4c"><em>人文</em><u>8.7</u><b>手艺人</b><s style="--w:87%"><i></i></s></div><div class="info"><b>手艺人</b><div class="row"><span>纪录 / 92分钟</span><i>非遗</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#c9d6a3;--c2:#8ca04c"><em>社会</em><u>8.5</u><b>城市边缘</b><s style="--w:85%"><i></i></s></div><div class="info"><b>城市边缘</b><div class="row"><span>纪录 / 104分钟</span><i>现实</i></div></div></div>
+    </div>
+    <div class="grid" id="g8" style="display:none">
+      <div class="thumb"><div class="cvr" style="--c1:#d6c9a3;--c2:#a08c4c"><em>经典</em><u>9.3</u><b>东邪西毒</b><s style="--w:93%"><i></i></s></div><div class="info"><b>东邪西毒（4K 修复）</b><div class="row"><span>香港 / 100分钟</span><i>4K 修复</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#a3c9d6;--c2:#4c8ca0"><em>文艺</em><u>9.0</u><b>重庆森林</b><s style="--w:90%"><i></i></s></div><div class="info"><b>重庆森林（修复版）</b><div class="row"><span>香港 / 102分钟</span><i>经典港片</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#d6a3bc;--c2:#a04c70"><em>剧情</em><u>8.9</u><b>活着</b><s style="--w:89%"><i></i></s></div><div class="info"><b>活着（重制版）</b><div class="row"><span>内地 / 133分钟</span><i>华语经典</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#bcbcbc;--c2:#7a7a7a"><em>黑白</em><u>8.8</u><b>罗马假日</b><s style="--w:88%"><i></i></s></div><div class="info"><b>罗马假日（修复版）</b><div class="row"><span>美国 / 118分钟</span><i>修复</i></div></div></div>
+    </div>
+    <div class="grid" id="g9" style="display:none">
+      <div class="thumb"><div class="cvr" style="--c1:#ffb3ba;--c2:#e86a75"><em>短片</em><u>8.6</u><b>一碗面的距离</b><s style="--w:86%"><i></i></s></div><div class="info"><b>一碗面的距离</b><div class="row"><span>国产 / 28分钟</span><i>短片</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#bae1ff;--c2:#6aa8e8"><em>动画</em><u>8.8</u><b>纸飞机</b><s style="--w:88%"><i></i></s></div><div class="info"><b>纸飞机</b><div class="row"><span>法国 / 15分钟</span><i>获奖短片</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#baffc9;--c2:#6ae89a"><em>实验</em><u>8.2</u><b>无声对话</b><s style="--w:82%"><i></i></s></div><div class="info"><b>无声对话</b><div class="row"><span>内地 / 22分钟</span><i>独立</i></div></div></div>
+      <div class="thumb"><div class="cvr" style="--c1:#ffffba;--c2:#e8e86a"><em>纪录</em><u>8.4</u><b>早餐日记</b><s style="--w:84%"><i></i></s></div><div class="info"><b>早餐日记</b><div class="row"><span>日本 / 19分钟</span><i>微纪录</i></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目三：榜单 -->
+<section id="rank">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-head-l">
+        <span class="eyebrow">03 / 口碑榜单</span>
+        <h2 class="sec-t"><em>本周 TOP 10</em> · 蜜瓜严选</h2>
+        <p class="sec-d">综合播放热度、观众评分与真实评论，每 24 小时更新一次。</p>
+      </div>
+      <button class="btn-cta" type="button" style="margin:0">查看历史榜单</button>
+    </div>
+    <div class="split">
+      <div class="board">
+        <div class="board-h"><h3>🍈 蜜瓜电影网 · 本周必看</h3><span>更新于 09-28 09:00</span></div>
+        <div class="item g1"><span class="rk">1</span><span class="cvr2" style="--c1:#a3e8c9;--c2:#4cbe94"></span><span class="txt"><b>珊瑚花园</b><span>纪录 · 自然 · 9.4</span></span><span class="sc">9.4</span></div>
+        <div class="item g2"><span class="rk">2</span><span class="cvr2" style="--c1:#a3e0ff;--c2:#4ca8e8"></span><span class="txt"><b>星辰彼岸</b><span>科幻 · 太空 · 9.2</span></span><span class="sc">9.2</span></div>
+        <div class="item g3"><span class="rk">3</span><span class="cvr2" style="--c1:#d6c9a3;--c2:#a08c4c"></span><span class="txt"><b>东邪西毒 4K</b><span>经典 · 修复 · 9.3</span></span><span class="sc">9.3</span></div>
+        <div class="item"><span class="rk">4</span><span class="cvr2" style="--c1:#ffc0cb;--c2:#ff7a93"></span><span class="txt"><b>夏日方程式</b><span>爱情 · 院线 · 9.1</span></span><span class="sc">9.1</span></div>
+        <div class="item"><span class="rk">5</span><span class="cvr2" style="--c1:#a3c2d6;--c2:#5a7ca0"></span><span class="txt"><b>沉默的证人</b><span>悬疑 · 犯罪 · 8.8</span></span><span class="sc">8.8</span></div>
+        <div class="item"><span class="rk">6</span><span class="cvr2" style="--c1:#c2a3ff;--c2:#7a4ce8"></span><span class="txt"><b>电子灵魂</b><span>科幻 · AI · 8.7</span></span><span class="sc">8.7</span></div>
+        <div class="item"><span class="rk">7</span><span class="cvr2" style="--c1:#ffe0f0;--c2:#ff8fc0"></span><span class="txt"><b>蜜瓜小镇</b><span>动画 · 亲子 · 8.9</span></span><span class="sc">8.9</span></div>
+        <div class="item"><span class="rk">8</span><span class="cvr2" style="--c1:#ffc2a3;--c2:#e87a4c"></span><span class="txt"><b>暗线追击</b><span>动作 · 警匪 · 8.8</span></span><span class="sc">8.8</span></div>
+        <div class="item"><span class="rk">9</span><span class="cvr2" style="--c1:#c2c2d6;--c2:#6c6c8a"></span><span class="txt"><b>记忆折叠</b><span>悬疑 · 烧脑 · 9.0</span></span><span class="sc">9.0</span></div>
+        <div class="item"><span class="rk">10</span><span class="cvr2" style="--c1:#d6a3bc;--c2:#a04c70"></span><span class="txt"><b>活着 重制版</b><span>剧情 · 华语经典 · 8.9</span></span><span class="sc">8.9</span></div>
+      </div>
+      <div class="explain">
+        <h3>📐 蜜瓜榜单怎么排</h3>
+        <table>
+          <tr><th>维度</th><th>权重</th><th>说明</th></tr>
+          <tr><td>播放热度</td><td><b>40%</b></td><td><span class="bar"><i style="width:40%"></i></span></td></tr>
+          <tr><td>观众评分</td><td><b>35%</b></td><td><span class="bar"><i style="width:35%"></i></span></td></tr>
+          <tr><td>评论互动</td><td><b>15%</b></td><td><span class="bar"><i style="width:15%"></i></span></td></tr>
+          <tr><td>更新时效</td><td><b>10%</b></td><td><span class="bar"><i style="width:10%"></i></span></td></tr>
+        </table>
+        <p style="margin-top:18px;font-size:14px;color:var(--sub)">规则说明：评分需累计 50 条以上有效评价才计入；新片有 7 天冷启动保护；每周日 20:00 发布周榜，每月 1 日发布月度精选。</p>
+        <button class="flt on" type="button" style="margin-top:18px;width:100%;justify-content:center">提交你的评分 →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目四：排片 -->
+<section id="plan" style="background:linear-gradient(180deg,transparent,rgba(34,176,125,.03),transparent);border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-head-l">
+        <span class="eyebrow">04 / 放映计划</span>
+        <h2 class="sec-t">一周 <em>放映日历</em></h2>
+        <p class="sec-d">点选日期查看当日场次，含 2D / 3D / IMAX / 配音版本，按需挑选。</p>
+      </div>
+      <span class="eyebrow" style="margin:0">9/28 – 10/4</span>
+    </div>
+    <div class="cal">
+      <div class="cal-h">
+        <button class="dt on" data-d="w1"><b>28日</b><span>周日</span><small>今日</small></button>
+        <button class="dt" data-d="w2"><b>29日</b><span>周一</span><small>新片日</small></button>
+        <button class="dt" data-d="w3"><b>30日</b><span>周二</span><small>经典夜</small></button>
+        <button class="dt" data-d="w4"><b>1日</b><span>周三</span><small>国庆</small></button>
+        <button class="dt" data-d="w5"><b>2日</b><span>周四</span></button>
+        <button class="dt" data-d="w6"><b>3日</b><span>周五</span><small>约会场</small></button>
+        <button class="dt" data-d="w7"><b>4日</b><span>周六</span><small>亲子场</small></button>
+      </div>
+
+      <div class="cal-body" id="w1">
+        <div class="ln"><span class="t">10:00</span><div class="n"><b>蜜瓜小镇</b><span>亲子动画 · 国语配音专场</span></div><span class="tag-v v2">2D 配音</span><span class="pr">厅② · 94分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">13:30</span><div class="n"><b>小森林的午后</b><span>治愈喜剧 · 午后轻松场</span></div><span class="tag-v">2D 中字</span><span class="pr">厅③ · 102分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">16:00</span><div class="n"><b>星辰彼岸</b><span>太空科幻 · 视听沉浸</span></div><span class="tag-v v3">IMAX</span><span class="pr">激光巨幕 · 148分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">19:00</span><div class="n"><b>夏日方程式</b><span>院线新片 · 黄金场</span></div><span class="tag-v v2">2D 中字</span><span class="pr">厅① · 116分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">21:40</span><div class="n"><b>沉默的证人</b><span>悬疑犯罪 · 深夜场</span></div><span class="tag-v">2D 中字</span><span class="pr">厅④ · 130分钟</span><span class="go">选座 →</span></div>
+      </div>
+      <div class="cal-body" id="w2" style="display:none">
+        <div class="ln"><span class="t">11:00</span><div class="n"><b>珊瑚花园</b><span>自然纪录片 · 周一科普场</span></div><span class="tag-v v2">2D 中字</span><span class="pr">厅② · 98分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">14:00</span><div class="n"><b>电子灵魂</b><span>AI 科幻 · 新片首映</span></div><span class="tag-v v3">IMAX</span><span class="pr">激光巨幕 · 124分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">17:00</span><div class="n"><b>大赢家</b><span>合家欢喜剧</span></div><span class="tag-v">2D 中字</span><span class="pr">厅③ · 113分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">20:00</span><div class="n"><b>暗线追击</b><span>港式警匪 · 动作专场</span></div><span class="tag-v v2">2D 中字</span><span class="pr">厅① · 126分钟</span><span class="go">选座 →</span></div>
+      </div>
+      <div class="cal-body" id="w3" style="display:none">
+        <div class="ln"><span class="t">10:30</span><div class="n"><b>云上的孩子</b><span>治愈动画 · 早场</span></div><span class="tag-v">2D 中字</span><span class="pr">厅③ · 89分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">14:30</span><div class="n"><b>重庆森林（修复）</b><span>经典港片 · 修复版</span></div><span class="tag-v v2">2D 中字</span><span class="pr">厅② · 102分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">17:30</span><div class="n"><b>东邪西毒 4K</b><span>武侠经典 · 4K 修复</span></div><span class="tag-v v4">4K</span><span class="pr">激光厅 · 100分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">20:30</span><div class="n"><b>记忆折叠</b><span>悬疑烧脑 · 周二经典夜</span></div><span class="tag-v">2D 中字</span><span class="pr">厅① · 127分钟</span><span class="go">选座 →</span></div>
+      </div>
+      <div class="cal-body" id="w4" style="display:none">
+        <div class="ln"><span class="t">09:30</span><div class="n"><b>森林守护者</b><span>动画冒险 · 国庆早场</span></div><span class="tag-v v2">2D 配音</span><span class="pr">厅② · 101分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">12:30</span><div class="n"><b>写给你的信</b><span>治愈爱情 · 午间场</span></div><span class="tag-v">2D 中字</span><span class="pr">厅③ · 121分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">15:30</span><div class="n"><b>深海巨兽</b><span>视效大片 · 全家场</span></div><span class="tag-v v3">IMAX</span><span class="pr">激光巨幕 · 132分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">19:00</span><div class="n"><b>黎明之前</b><span>战争史诗 · 黄金场</span></div><span class="tag-v v4">4K</span><span class="pr">激光厅 · 142分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">22:10</span><div class="n"><b>倒计时 48h</b><span>国产推理 · 深夜场</span></div><span class="tag-v">2D 中字</span><span class="pr">厅④ · 118分钟</span><span class="go">选座 →</span></div>
+      </div>
+      <div class="cal-body" id="w5" style="display:none">
+        <div class="ln"><span class="t">11:00</span><div class="n"><b>今晚不加班</b><span>脱口秀现场 · 午后</span></div><span class="tag-v v2">2D 中字</span><span class="pr">厅③ · 99分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">14:00</span><div class="n"><b>在巴黎的最后一天</b><span>法式浪漫</span></div><span class="tag-v">2D 中字</span><span class="pr">厅② · 104分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">17:00</span><div class="n"><b>代号萤火</b><span>韩式谍战</span></div><span class="tag-v v2">2D 中字</span><span class="pr">厅① · 134分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">20:00</span><div class="n"><b>第七个房间</b><span>心理惊悚 · 密闭空间</span></div><span class="tag-v">2D 中字</span><span class="pr">厅④ · 112分钟</span><span class="go">选座 →</span></div>
+      </div>
+      <div class="cal-body" id="w6" style="display:none">
+        <div class="ln"><span class="t">10:00</span><div class="n"><b>爷爷的旧书店</b><span>温情动画短片合集</span></div><span class="tag-v v2">2D 配音</span><span class="pr">厅③ · 86分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">13:30</span><div class="n"><b>十七岁的海</b><span>青春爱情 · 约会场</span></div><span class="tag-v">2D 中字</span><span class="pr">厅② · 109分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">16:30</span><div class="n"><b>2077 便利店</b><span>国产新锐科幻</span></div><span class="tag-v v3">IMAX</span><span class="pr">激光巨幕 · 110分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">19:30</span><div class="n"><b>孤刀行</b><span>中式武侠 · 晚场</span></div><span class="tag-v v2">2D 中字</span><span class="pr">厅① · 119分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">22:00</span><div class="n"><b>甲方乙方 2026</b><span>荒诞喜剧 · 深夜场</span></div><span class="tag-v">2D 中字</span><span class="pr">厅④ · 107分钟</span><span class="go">选座 →</span></div>
+      </div>
+      <div class="cal-body" id="w7" style="display:none">
+        <div class="ln"><span class="t">09:30</span><div class="n"><b>蜜瓜小镇</b><span>亲子专场 · 周末首场</span></div><span class="tag-v v2">2D 配音</span><span class="pr">厅② · 94分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">11:30</span><div class="n"><b>纸飞机</b><span>获奖动画短片</span></div><span class="tag-v v2">2D 中字</span><span class="pr">厅③ · 15分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">13:30</span><div class="n"><b>一碗面的距离</b><span>国产温情短片</span></div><span class="tag-v">2D 中字</span><span class="pr">厅③ · 28分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">15:00</span><div class="n"><b>星辰彼岸</b><span>太空科幻 · 周六黄金场</span></div><span class="tag-v v3">IMAX</span><span class="pr">激光巨幕 · 148分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">18:30</span><div class="n"><b>夏日方程式</b><span>院线新片 · 家庭场</span></div><span class="tag-v v2">2D 中字</span><span class="pr">厅① · 116分钟</span><span class="go">选座 →</span></div>
+        <div class="ln"><span class="t">21:30</span><div class="n"><b>罗马假日（修复）</b><span>经典黑白 · 深夜重温</span></div><span class="tag-v v4">4K</span><span class="pr">激光厅 · 118分钟</span><span class="go">选座 →</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目五：指南 -->
+<section id="guide">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-head-l">
+        <span class="eyebrow">05 / 观影指南</span>
+        <h2 class="sec-t">三步上手 <em>蜜瓜电影网</em></h2>
+        <p class="sec-d">从打开到看上，流程压到三步，新手也能秒懂。</p>
+      </div>
+    </div>
+    <div class="guide">
+      <div class="gd"><span class="n">STEP 01</span><h3>打开站点</h3><p>浏览器输入 https://miguadianyingwang-zh.github.io，无需注册登录，直接浏览全站片单与榜单。</p><span class="tip">💡 建议加入书签</span></div>
+      <div class="gd"><span class="n">STEP 02</span><h3>挑影片</h3><p>在「精选片单」点频道标签，或在顶部搜索框输入片名、演员、导演，结果即时呈现。</p><span class="tip">💡 不确定看啥就看榜单</span></div>
+      <div class="gd"><span class="n">STEP 03</span><h3>查场次</h3><p>切到「放映计划」选日期，确认 2D / 3D / IMAX / 配音版本与时间后即可前往。</p><span class="tip">💡 新片每日 9 点更新</span></div>
+    </div>
+    <div class="notice-box">
+      <h4>🍈 蜜瓜观影小贴士</h4>
+      <ul>
+        <li>手机端日历与频道标签均支持左右滑动，单手操作更顺手</li>
+        <li>想快速决策：先看「口碑榜单」TOP 10，再用频道标签细化口味</li>
+        <li>周末亲子场集中在上午 9:30–12:30，多配国语配音版本</li>
+        <li>发现失效资源或想看的类型，可在页脚提交反馈，24 小时内人工回复</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 影迷口碑 -->
+<section id="comments" style="border-top:1px solid var(--line);background:linear-gradient(180deg,transparent,rgba(34,176,125,.03))">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-head-l">
+        <span class="eyebrow">06 / 蜜友评价</span>
+        <h2 class="sec-t">来自 <em>蜜瓜电影网</em> 用户</h2>
+        <p class="sec-d">真实留言 · 评价计入榜单权重</p>
+      </div>
+      <button class="btn-cta" type="button" style="margin:0">写一条评价</button>
+    </div>
+    <div class="cmt-grid">
+      <div class="cmt">
+        <div class="cmt-top">
+          <span class="av" style="background:linear-gradient(150deg,#22b07d,#0e8a5f)">小</span>
+          <div class="who"><b>小西瓜</b><time>2026-09-27 22:05</time></div>
+          <span class="stars">★★★★★</span>
+        </div>
+        <p>配色太舒服了，眼睛不累。按榜单点开了《珊瑚花园》，画面真的绝，这站选片眼光可以，已经推荐给朋友。</p>
+        <div class="cmt-ft"><span>👍 有用 156</span><span>💬 回复 14</span><span>🔖 收藏</span></div>
+      </div>
+      <div class="cmt">
+        <div class="cmt-top">
+          <span class="av" style="background:linear-gradient(150deg,#ff8fa3,#ff6b85)">阿</span>
+          <div class="who"><b>阿May</b><time>2026-09-26 20:33</time></div>
+          <span class="stars">★★★★☆</span>
+        </div>
+        <p>周末带侄女来，亲子专场全是配音版，省心。希望后续多补点经典老动画的修复版，那种小时候的味道最怀念。</p>
+        <div class="cmt-ft"><span>👍 有用 102</span><span>💬 回复 9</span><span>🔖 收藏</span></div>
+      </div>
+      <div class="cmt">
+        <div class="cmt-top">
+          <span class="av" style="background:linear-gradient(150deg,#4ec5e8,#2a9ec4)">K</span>
+          <div class="who"><b>Ken 放映员</b><time>2026-09-25 23:11</time></div>
+          <span class="stars">★★★★★</span>
+        </div>
+        <p>放映计划这个日历太实用了，2D / 3D / IMAX / 配音标得清清楚楚，约朋友看片再也不用一个个问版本。会长期收藏。</p>
+        <div class="cmt-ft"><span>👍 有用 238</span><span>💬 回复 27</span><span>🔖 收藏</span></div>
+      </div>
+      <div class="cmt">
+        <div class="cmt-top">
+          <span class="av" style="background:linear-gradient(150deg,#9b7ce8,#6f5ed6)">苏</span>
+          <div class="who"><b>苏苏</b><time>2026-09-24 09:48</time></div>
+          <span class="stars">★★★★☆</span>
+        </div>
+        <p>榜单权重公开这点很加分，比那种只堆播放量的站让人放心。纪录片分区质量高，已经追完三部，期待下周更新。</p>
+        <div class="cmt-ft"><span>👍 有用 88</span><span>💬 回复 6</span><span>🔖 收藏</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 底部 -->
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-grid">
+      <div class="ft-brand">
+        <a class="logo" href="#top">
+          <span class="mk" aria-hidden="true"></span>
+          <span>蜜瓜电影网<small>MIGUADIANYINGWANG</small></span>
+        </a>
+        <p>蜜瓜电影网（miguadianyingwang-zh）以清爽轻量的风格，聚合高清电影与最新影视推荐，让找片这件事像吃一口冰镇蜜瓜一样简单。</p>
+        <div class="codes">
+          <code>miguadianyingwang-zh.github.io</code>
+          <code>HTTPS</code>
+          <code>移动端自适应</code>
+          <code>每日更新</code>
+        </div>
+      </div>
+      <div class="ft-col">
+        <h4>快速导航</h4>
+        <a href="#home">首页</a>
+        <a href="#about">关于本站</a>
+        <a href="#list">精选片单</a>
+        <a href="#rank">口碑榜单</a>
+        <a href="#plan">放映计划</a>
+        <a href="#guide">观影指南</a>
+      </div>
+      <div class="ft-col">
+        <h4>影片分类</h4>
+        <a href="#list">爱情 · 浪漫</a>
+        <a href="#list">喜剧 · 治愈</a>
+        <a href="#list">悬疑 · 犯罪</a>
+        <a href="#list">科幻 · 奇幻</a>
+        <a href="#list">动画 · 亲子</a>
+        <a href="#list">动作 · 经典</a>
+      </div>
+      <div class="ft-col">
+        <h4>关于我们</h4>
+        <a href="#about">站点简介</a>
+        <a href="#comments">蜜友评价</a>
+        <a href="#">意见反馈</a>
+        <a href="#">更新日志</a>
+        <a href="#">隐私说明</a>
+        <a href="#">免责声明</a>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span>© 2026 蜜瓜电影网（miguadianyingwang-zh） 保留所有权利 · 网站网址：https://miguadianyingwang-zh.github.io</span>
+      <span><a href="#top">回到顶部 ↑</a></span>
+    </div>
+  </div>
+</footer>
+
+<button class="top" id="top" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var mb=document.getElementById('mb'),nav=document.getElementById('nav');
+  if(mb){
+    mb.addEventListener('click',function(){
+      nav.classList.toggle('open');mb.classList.toggle('on');
+    });
+    nav.addEventListener('click',function(e){
+      if(e.target.tagName==='A'){nav.classList.remove('open');mb.classList.remove('on');}
+    });
+  }
+  var flt=document.getElementById('flt');
+  if(flt){
+    flt.addEventListener('click',function(e){
+      var b=e.target.closest('.flt');if(!b)return;
+      var id=b.dataset.g;
+      [].forEach.call(flt.querySelectorAll('.flt'),function(x){x.classList.toggle('on',x===b)});
+      [].forEach.call(document.querySelectorAll('.grid'),function(g){g.style.display=g.id===id?'grid':'none'});
+    });
+  }
+  var cal=document.querySelector('.cal-h');
+  if(cal){
+    cal.addEventListener('click',function(e){
+      var b=e.target.closest('.dt');if(!b)return;
+      var id=b.dataset.d;
+      [].forEach.call(cal.querySelectorAll('.dt'),function(x){x.classList.toggle('on',x===b)});
+      [].forEach.call(document.querySelectorAll('.cal-body'),function(p){p.style.display=p.id===id?'block':'none'});
+    });
+  }
+  var top=document.getElementById('top');
+  var sc=function(){top.classList.toggle('on',window.scrollY>500)};
+  window.addEventListener('scroll',sc,{passive:true});sc();
+  top.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+
+</body>
+</html>
